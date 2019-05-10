@@ -1,0 +1,29 @@
+@import '../variables.scss';
+
+.todo {
+  // border: 1px solid #6c757d;
+  border: $border;
+  border-radius: 0.5rem;
+  color: $text-color-secondary;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.actions {
+  border-top: $todo-border-color-internal;
+  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: 9rem 4rem;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.action {
+  display: inline-block;
+  cursor: pointer;
+  color: $text-color-link;
+}
+
+.delete {
+  color: $text-color-error;
+}

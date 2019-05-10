@@ -1,0 +1,11 @@
+.container {
+}
+
+.button {
+  composes: button from '../App.module.scss';
+  margin-right: 1rem;
+}
+
+.buttonActivated {
+  composes: buttonActivated from '../App.module.scss';
+}

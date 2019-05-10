@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> renders without crashing 1`] = `
+<div
+  className="inputContainer"
+>
+  <p
+    className="textInitial"
+  >
+    Enter Todo Text:
+  </p>
+  <input
+    className="textInputField"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Todo Text"
+    type="text"
+    value=""
+  />
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Add
+  </button>
+</div>
+`;

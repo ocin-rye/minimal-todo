@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <p>
+    Filter Todos
+  </p>
+  <button
+    className="button buttonActivated All"
+    key="filter button All"
+    onClick={[Function]}
+  >
+    All
+  </button>
+  <button
+    className="button null Completed"
+    key="filter button Completed"
+    onClick={[Function]}
+  >
+    Completed
+  </button>
+  <button
+    className="button null Active"
+    key="filter button Active"
+    onClick={[Function]}
+  >
+    Active
+  </button>
+</div>
+`;

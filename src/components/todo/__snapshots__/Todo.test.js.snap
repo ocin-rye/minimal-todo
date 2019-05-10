@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Todo /> Active todo renders active todo without crashing 1`] = `
+<div
+  className="todo"
+>
+  <p
+    className=""
+  >
+    Active
+  </p>
+  <p
+    className=""
+  >
+    Example Todo Text.
+  </p>
+  <div
+    className="actions"
+  >
+    <p
+      className="action toggleCompleted"
+      onClick={[Function]}
+    >
+      Mark as 
+      Completed
+    </p>
+    <p
+      className="textRight action delete"
+      onClick={[Function]}
+    >
+      Delete
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Todo /> Completed todo renders completed todo without crashing 1`] = `
+<div
+  className="todo"
+>
+  <p
+    className=""
+  >
+    Completed
+  </p>
+  <p
+    className=""
+  >
+    Example Todo Text.
+  </p>
+  <div
+    className="actions"
+  >
+    <p
+      className="action toggleCompleted"
+      onClick={[Function]}
+    >
+      Mark as 
+      Active
+    </p>
+    <p
+      className="textRight action delete"
+      onClick={[Function]}
+    >
+      Delete
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.container {
+  position: static;
+}
+.header {
+  background-color: $background-color;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  position: sticky;
+  top: 6rem;
+  @media (max-width: 45rem) {
+    position: static;
+  }
+}

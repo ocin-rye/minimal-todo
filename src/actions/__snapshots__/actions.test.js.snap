@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators creates a DELETE_TODO action 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "completed": false,
+      "id": "1UpbCPrF6mODLiVE6Uw7-",
+      "text": "Sample Todo Text.",
+    },
+    "type": "delete_todo",
+  },
+]
+`;
+
+exports[`action creators creates an ADD_TODO action 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "completed": false,
+      "id": "testTodoId",
+      "text": "This is text todo text.",
+    },
+    "type": "add_todo",
+  },
+]
+`;
+
+exports[`action creators creates an SET_TODO_LIST_FILTER action 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "todoListFilter": "ALL",
+    },
+    "type": "set_todo_list_filter",
+  },
+]
+`;
+
+exports[`action creators creates an TOGGLE_TODO_COMPLETION action 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "completed": false,
+      "id": "1UpbCPrF6mODLiVE6Uw7-",
+      "text": "Sample Todo Text.",
+    },
+    "type": "toggle_todo_completion",
+  },
+]
+`;

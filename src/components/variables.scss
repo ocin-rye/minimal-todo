@@ -1,0 +1,31 @@
+// * Styles
+
+$background-color: black;
+$border: 1px solid #6c757d;
+$border-secondary: 1px solid #101010;
+$text-color: white;
+$text-color-error: #d0021b;
+$text-color-link: #683eff;
+$text-color-secondary: #808080;
+$text-color-success: #529d00;
+
+// Button Styles
+
+$button-background: black;
+$button-background-active: black;
+$button-background-hover: black;
+$button-border: 0.0625rem solid #6c757d;
+$button-border-active: 0.0625rem solid white;
+$button-border-hover: 0.0625rem solid white;
+$button-text-color: #6c757d;
+$button-text-color-active: white;
+$button-text-color-hover: #6c757d;
+
+$button-selected-background: black;
+$button-selected-border: 0.0625rem solid #ffec00;
+$button-selected-border-hover: 0.0625rem solid #6c757d;
+$button-selected-text-color: #ffec00;
+$button-selected-text-color-hover: #ffec00;
+
+// Todo
+$todo-border-color-internal: 1px solid #101010;

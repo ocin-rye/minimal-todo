@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> renders initial state without crashing 1`] = `
+<div
+  className="container"
+>
+  <p
+    className="textCenter header"
+  >
+    All Todos: 3
+  </p>
+  <Todo
+    key="testTodoId"
+    todo={
+      Object {
+        "completed": false,
+        "id": "testTodoId",
+        "text": "Test todo text.",
+      }
+    }
+  />
+  <Todo
+    key="SGcqcq0TbTPqvyWOMIKtZ"
+    todo={
+      Object {
+        "completed": true,
+        "id": "SGcqcq0TbTPqvyWOMIKtZ",
+        "text": "Duis maximus lacinia pellentesque.",
+      }
+    }
+  />
+  <Todo
+    key="AHdfoOWOYnObQQH4zWcdL"
+    todo={
+      Object {
+        "completed": false,
+        "id": "AHdfoOWOYnObQQH4zWcdL",
+        "text": "Aenean molestie elit at dictum finibus. Vestibulum porttitor at lorem viverra accumsan.",
+      }
+    }
+  />
+</div>
+`;
