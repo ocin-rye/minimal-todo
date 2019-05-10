@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import styles from './Input.module.scss';
+import { PropTypes } from 'prop-types';
 import nanoid from 'nanoid';
 
-class input extends Component {
+import styles from './Input.module.scss';
+
+class Input extends Component {
   constructor() {
     super();
     this.state = {
@@ -92,4 +94,8 @@ class input extends Component {
   }
 }
 
-export default input;
+Input.propTypes = {
+  addTodo: PropTypes.func.isRequired,
+};
+
+export default Input;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
 import { todoListFilters } from '../../actions/paramConstants';
 
 import styles from './Filter.module.scss';
@@ -29,5 +30,10 @@ class Filter extends Component {
     );
   }
 }
+
+Filter.propTypes = {
+  setTodoListFilter: PropTypes.func.isRequired,
+  todoListFilter: PropTypes.string.isRequired,
+};
 
 export default Filter;

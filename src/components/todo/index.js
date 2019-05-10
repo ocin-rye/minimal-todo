@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
 import styles from './Todo.module.scss';
 
 class Todo extends Component {
@@ -25,5 +26,11 @@ class Todo extends Component {
     );
   }
 }
+
+Todo.propTypes = {
+  todo: PropTypes.object.isRequired,
+  toggleTodoCompletion: PropTypes.func.isRequired,
+  deleteTodo: PropTypes.func.isRequired,
+};
 
 export default Todo;

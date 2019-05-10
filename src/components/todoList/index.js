@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
 import { todoListFilters } from '../../actions/paramConstants';
 import Todo from '../todo';
 import styles from './TodoList.module.scss';
@@ -79,5 +80,12 @@ class TodoList extends Component {
     );
   }
 }
+
+TodoList.propTypes = {
+  todoList: PropTypes.arrayOf(PropTypes.object).isRequired,
+  toggleTodoCompletion: PropTypes.func.isRequired,
+  deleteTodo: PropTypes.func.isRequired,
+  todoListFilter: PropTypes.string.isRequired,
+};
 
 export default TodoList;
